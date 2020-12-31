@@ -1,0 +1,183 @@
+/*======== site default css ========*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*======== google fonts ========*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.container:before,
+.container:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*======== header css ========*/
+
+header {
+    background: rgb(63,76,107);
+    background: -moz-linear-gradient(-45deg,  rgba(63,76,107,1) 6%, rgba(63,76,107,1) 93%, rgba(63,76,107,1) 93%, rgba(63,76,107,1) 100%);
+    background: -webkit-linear-gradient(-45deg,  rgba(63,76,107,1) 6%,rgba(63,76,107,1) 93%,rgba(63,76,107,1) 93%,rgba(63,76,107,1) 100%);
+    background: linear-gradient(135deg,  rgba(63,76,107,1) 6%,rgba(63,76,107,1) 93%,rgba(63,76,107,1) 93%,rgba(63,76,107,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); 
+    padding: 50px 0;
+}
+
+.header-site {
+    color: #fff;
+}
+
+.header-site h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 18px;
+}
+
+button.hide {
+    padding: 10px 24px;
+    cursor: pointer;
+    border: none;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+
+button.show {
+    padding: 10px 24px;
+    cursor: pointer;
+    border: none;
+    margin-top: 13px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#flip {
+    padding: 12px;
+    text-align: center;
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #1237eb);
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#panel {
+    text-align: center;
+    background: linear-gradient(to right, rgb(195, 55, 100), rgb(29, 38, 113));
+    color: #fff;
+    font-weight: 600;
+}
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
+  div#flip {
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+
+.signup-form {
+    margin: 0 auto;
+    display: table;
+    background: linear-gradient(to right, rgb(169 176 181), rgb(44, 62, 80));
+    padding: 62px 71px;
+    margin-top: 41px;
+}
+
+.signup-form h2 {
+    color: #fff;
+    font-size: 31px;
+    padding-bottom: 25px;
+}
+
+.form-group input {
+    padding: 10px 132px 10px 15px;
+    margin-bottom: 12px;
+    border: none;
+}
+
+input.btn-1 {
+    padding: 10px 29px;
+    margin-top: 13px;
+    background: linear-gradient(to right, rgb(82 66 148), rgb(220 170 20));
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+}
+
+/* .sign {
+    display: none;
+} */
+
+.form-control:focus {
+    outline: 0;
+    box-shadow:none;
+  }
+
+
+
+  .hide:focus {
+    outline: 0;
+    box-shadow:none;
+  }
+
+  .show:focus {
+    outline: 0;
+    box-shadow:none;
+  }
+
+  .btn-1:focus {
+    outline: 0;
+    box-shadow:none;
+  }
+
+  .btn:focus {
+    outline: 0;
+    box-shadow:none;
+  }
+
+.box {
+    height: 150px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 13px;
+}
+
+.box-1 {
+    background: linear-gradient(to right, rgb(252, 92, 125), rgb(106, 130, 251));
+    margin-top: 40px;
+}
+
+.box-2 {
+    background: linear-gradient(to right, rgb(138, 35, 135), rgb(233, 64, 87), rgb(242, 113, 33));
+}
+
+.box-3 {
+    background: linear-gradient(to right, rgb(195, 55, 100), rgb(29, 38, 113));
+}
+
+button.btn {
+    padding: 10px 25px;
+    background: linear-gradient(to right, rgb(252, 74, 26), rgb(247, 183, 51));
+    border: none;
+    margin-top: 50px;
+    margin-left: 12px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
